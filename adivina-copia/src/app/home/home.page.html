@@ -1,0 +1,28 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Catálogo de Jugadores de Fútbol</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <!-- Barra de búsqueda -->
+  <ion-searchbar [(ngModel)]="filtro" placeholder="Buscar jugador..."></ion-searchbar>
+
+  <!-- Grid de tarjetas para mostrar los jugadores -->
+  <ion-grid>
+    <ion-row>
+      <ion-col size="12" size-md="6" size-lg="4" *ngFor="let player of filteredPlayers">
+        <ion-card>
+          <img [src]="player.image" alt="Imagen del jugador" />
+          <ion-card-header>
+            <ion-card-title>{{ player.name }}</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <p><strong>Descripción:</strong> {{ player.description }}</p>
+            <p><strong>Categoría:</strong> {{ player.category }}</p>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
