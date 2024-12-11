@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Cristiano Ronaldo",
+    "description": "Estrella portuguesa del Manchester United y la selección de Portugal.",
+    "price": null,
+    "category": "Jugadores",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/14/Cristiano_Ronaldo_2019.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Lionel Messi",
+    "description": "Estrella argentina del Paris Saint-Germain y la selección de Argentina.",
+    "price": null,
+    "category": "Jugadores",
+    "image": "https://upload.wikimedia.org/wikipedia/cr/8/85/Lionel_Messi_2021.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Kylian Mbappé",
+    "description": "Talento francés del Paris Saint-Germain y la selección de Francia.",
+    "price": null,
+    "category": "Jugadores",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Kylian_Mbapp%C3%A9_2021.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Robert Lewandowski",
+    "description": "Estrella polaca del Bayern Munich y la selección de Polonia.",
+    "price": null,
+    "category": "Jugadores",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/93/Robert_Lewandowski_2021.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Neymar Jr.",
+    "description": "Estrella brasileña del Paris Saint-Germain y la selección de Brasil.",
+    "price": null,
+    "category": "Jugadores",
+    "image": "https://upload.wikimedia.org/wikipedia/cr/5/51/Neymar_Junior_2019.jpg"
+  }
+]
